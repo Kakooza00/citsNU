@@ -461,7 +461,7 @@ footer p:hover{
       flex-direction: row; 
   }
   .footerContainer .footer-content li a{
-    font-size: 12px;
+    font-size: 15px;
     cursor: pointer;
   }
 
@@ -470,7 +470,7 @@ footer p:hover{
     cursor: pointer;
   }
   footer p{
-    font-size: 15px;
+    font-size: 12px;
   }
   footer p:hover{
     color: cyan;
