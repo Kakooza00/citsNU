@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITS - Computing & Informatics Society</title>
+    <link rel="stylesheet" href="i.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+     <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><ion-icon name="close-outline" class="header-close"></ion-icon></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+     </ul>
+     <ul>
+        <li><a href="#">CITS - Computing & Informatics Society</a></li>
+        <li class="hideOnMobile"><a href="about.html">About</a></li>
+        <li class="hideOnMobile"><a href="services.html">Services</a></li>
+        <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+        <li onclick=showSidebar()><a href="#">
+            <ion-icon name="reorder-three-outline" class="header-open" id=""></ion-icon>
+        </a></li>
+     </ul>
+    </nav>
+    <div class="content">
+        <div class="info">
+            <h1>Learn. Connect.. Transform...</h1>
+        </div>
+        <div class="greet">
+            <div class="mem">
+                <h2>CITS MEMBERSHIP</h2><br>
+                <li>Learn new skills & technologies</li>
+                <li>Transform your skills</li>
+                <li>Attend CITS events</li>
+                <li>Digital skills training</li>
+                <li>Physical & Online programming lessons</li>
+                <li>Career Guidance</li>
+                <li>IT diversity & inclusion Initiatives</li>
+            </div>
+            <div class="mem">
+                <img src="citsNew.jpg" alt="logo">
+            </div>
+            <div class="mem">
+                <video autoplay muted src="imgs/keyboard.mp4"></video>
+            </div>
+        </div>
+
+    </div>
+    <div class="container swiper">
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <img src="imgs/ML.jpg" alt="Robot" class="user-image">
+                    <h2 class="user-name">AI</h2>
+                    <p class="user-profession">Artificial Intelligence</p>   
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="imgs/solderGuy.jpg" alt="" class="user-image">
+                    <h2 class="user-name">COMPUTER REPAIR</h2>
+                    <p class="user-profession">Repair and maintenance</p>   
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="imgs/cables.jpg" alt="" class="user-image">
+                    <h2 class="user-name">COMPUTER NETWORKING</h2>
+                    <p class="user-profession">Wireless & cable networks</p>    
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="imgs/website.jpg" alt="Robot" class="user-image">
+                    <h2 class="user-name">WEBSITE DEVELOPMENT</h2>
+                    <p class="user-profession">FRONT END & BACK END DEVELOPMENT</p> 
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="imgs/darkMan.jpg" alt="Robot" class="user-image">
+                    <h2 class="user-name">INFORMATION SYSTEMS SECURITY</h2>
+                    <p class="user-profession">Ethical hacking & Intrusion detecting</p> 
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="imgs/automation.jpg" alt="Robot" class="user-image">
+                    <h2 class="user-name">Machine Learning</h2>
+                    <p class="user-profession">Imitating human psychology with machines.</p>
+                    
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="imgs/robotics.jpg" alt="Robot" class="user-image">
+                    <h2 class="user-name">Embedded Systems & Robotics</h2>
+                    <p class="user-profession">Internet of Things</p>  
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="contact">
+            <div class="contactForm">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <h2>Send us a message</h2>
+                    <div class="inputBox">
+                        <input type="hidden" name="access_key" value="d92ff073-03de-47bc-a2ee-2a44a653e313">
+                        <input type="text" name="Name" required="required" autocomplete="off">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required" autocomplete="off">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required" ></textarea>
+                        <span>Write your Message</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="submit" value="Send" required="required">
+                        <span></span>
+                    </div>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8127317875596!2d32.5064854!3d0.09589829999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177d85cbdc1db1e3%3A0xdd083b1d6ca141a0!2sNkumba%20University!5e0!3m2!1sen!2sug!4v1739539769511!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <h2>OUR PARTNERS</h2>
+        <div class="parts">
+            <div class="box">
+                <img src="imgs/IndabaX.jpg" alt="">
+                <p>INDABAX CLUB</p>
+            </div>
+            <div class="box">
+                <img src="imgs/cyber.jpg" alt="">
+                <p>CYBER SECURITY CLUB</p>
+            </div>
+            <div class="box">
+                <img src="imgs/stdsProg.jpg" alt="">
+                <p>SOFTWARE DEVELOPER CLUB </p>
+            </div>
+            <div class="box">
+                <img src="imgs/ladySolder.jpg" alt="">
+                <p>EMBEDDED SYSTEMS CLUB </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Phone: +256756578386 / +256751769357</p>
+                <p>Email: nu.sci.cits@gmail.com</p>
+                <p>Address: 237 Nkumba Entebbe</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3> <br>
+                <div class="links">
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </div>
+               
+            </div>
+            <div class="footer-content" >
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <li><a href="#"><i class="fa-brands fa-tiktok"></i> </a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i> </a></li>
+                    <li><a href="#"> <i class="fa-brands fa-youtube"></i> </a></li>
+                    <li><a href="#"> <i class="fa-brands fa-facebook-f"></i> </a></li>
+                </div>
+            </div>
+        </div>
+        <p>CITS &copy; 2025 All Rights reserved.</p>
+        <p>Developed by 👨🏿Kakooza Xenyondo </p>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.slider-wrapper', {
+            loop: true,
+            grabCursor: true,
+            spaceBetween: 30,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+              dynamicBullets: true,
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+            //Responsive breakpoint
+            breakpoints:{
+              0:{
+                slidesPerView: 1
+              },
+              800:{
+                slidesPerView: 2
+              },
+              1024:{
+                slidesPerView: 3
+              },
+            },
+          
+          });
+    </script>
+
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "flex"
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "none"
+    }
+</script>
+
+</body>
+</html>
